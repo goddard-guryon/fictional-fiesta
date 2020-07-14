@@ -1,5 +1,5 @@
 # fictional-fiesta
-IBM Inroduction to Machine Learning Course (edX) notebooks and models.
+IBM Introduction to Machine Learning Course (edX) notebooks and models.
 
 The files are stored in 4 folders; `my_attempts` and `solutions` contain Jupyter notebooks of course assignments, `datasets` contains the CSV datasets the models were trained on, and `saved_models` contains pickle dumps of those models.
 
@@ -29,7 +29,7 @@ The `saved_models` directory contains the following models (more details can be 
 
 &bull; Model 7: Logistic Regression model to predict whether a telecommunications company's customer will churn (leave for a competitor) based on their demographic data.
 
-&bull; Model 8: Support Vector Machine (SVM)-based model to predict whether a given cell sample if benign or malignant based on the sample features.
+&bull; Model 8: Support Vector Machine (SVM)-based model to predict whether a given cell sample is benign or malignant based on the sample features.
 
 &bull; Model 9: K-Means Clustering model to segment bank customers based on their details.
 
@@ -37,4 +37,4 @@ The `saved_models` directory contains the following models (more details can be 
 
 &bull; Model 11: Density-Based Clustering model to categorize weather stations in Canada based on the weather conditions reported by them.
 
-The notebooks `model_12.ipynb` and `model_13.ipynb` contain `numpy`-based implementations of a movie recommender system, which you can access through those notebooks (since these models were not made through `scikit-learn` and I wasn't sure whether I could save them in a pickle dumps file (and if I could, how), I decided to leave them just as code implementations).
+The notebooks `model_12.ipynb` and `model_13.ipynb` contain `numpy`-based implementations of a movie recommender system, which you can access through those notebooks (since these models were not made through `scikit-learn` and I wasn't sure whether I could save them in a pickle dumps file (and if I could, how), I decided to leave them in the notebooks).
