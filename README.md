@@ -7,10 +7,11 @@ The files are stored in 4 folders; `my_attempts` and `solutions` contain Jupyter
 
 Just run the following code in your python script or jupyter notebook (where `[MODEL NAME]` is the name of the dumps file you want to use):
 
-`import pickle`<br>
-`with open("saved_models/[MODEL NAME].sav", "rb") as file:`<br>
-&nbsp;&nbsp;&nbsp;&nbsp;`model = pickle.load(file)`
-
+```
+import pickle
+with open("saved_models/[MODEL NAME].sav", "rb") as file:
+    model = pickle.load(file)
+```
 
 ## Models
 
